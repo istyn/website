@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Default.aspx" title="Home"  description="Isaac Styles">
+        <siteMapNode url="Projects.aspx" title="Projects"  description="Read about my projects" />
+      <siteMapNode url="Papers.aspx" title="Papers"  description="Read a selection of papers completed in college" />
+      <siteMapNode url="Research.aspx" title="Research"  description="Learn about the data science project for ETSU's Social Work Dept." />
+      <siteMapNode url="Music.aspx" title="Music"  description="Enjoy some media produced by myself" />
+      <siteMapNode url="DavisSpecial.aspx" title="'51 Davis Special"  description="View pictures and read an article about Uncle Phil's racecar" />
+      <siteMapNode url="AboutAuthor.aspx" title="About Me"  description="About the Author" />
+        <siteMapNode url="Account/Login.aspx" title="Log In"  description="Log in or create an account" />
+    </siteMapNode>
+</siteMap>
