@@ -29,9 +29,11 @@ namespace WebApplication1
         {
             ltrInfo.Mode = LiteralMode.PassThrough;
             ltrInfo.Text = "<ul>";
-            ltrInfo.Text += "<li>Graduated with B.S. in Computing: concentration in Computer Science at East Tennessee State University</li>";
-            ltrInfo.Text += "<li>Employed at Styles Auto Supply in Burnsville, NC</li>";
-            ltrInfo.Text += "<li>Freelances IT services for small business</li>";
+            ltrInfo.Text += "<li>This site is hosted from home on Windows Server 2008R2</li>";
+            ltrInfo.Text += "<li>Graduate of East Tennessee State University</li>";
+            ltrInfo.Text += "<li>B.S. in Computing: concentration in Computer Science</li>";
+            ltrInfo.Text += "<li>Freelance IT for small business</li>";
+            ltrInfo.Text += "<li>Enjoys hiking, biking, camping, and bouldering</li>";
             ltrInfo.Text += "<li>I still have my first vehicle, an '86 Mazda B2000 'low-n-slow' pickup. Check out the <a href='http://www.mazdabscene.com/forums/projects/project-b2000-polishing-turd-update-new-paint-t19511.html'>build thread</a></li>";
             ltrInfo.Text += "</ul>";
         }

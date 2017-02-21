@@ -7,6 +7,12 @@
         <h2>My Extracurriculars</h2>
 <p>The following projects were completed in time away from class. They are written in C# unless otherwise stated.</p>
 <ul>
+    <li><a href="https://github.com/istyn/inquisitive">Online Exam</a>
+        <ul>
+            <li>Produce exam from random selection of multiple choice questions, grade exam, and display final results with visual indication of whether answer was correct</li>
+            <li>ASP.NET MVC 5, Entity Framework, LINQ, AJAX, jQuery</li>
+        </ul>
+    </li>
     <li><a href="https://github.com/istyn/2DmolecularDynamics.git">2D Molecular Dynamics Simulation</a>
         <ul>
             <li>An event-driven molecular dynamics simulation of elastic collisions in 2-dimensions</li>

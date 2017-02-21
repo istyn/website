@@ -15,15 +15,31 @@
 	<asp:ContentPlaceHolder ID="HeadContent" runat="server">
 	</asp:ContentPlaceHolder>
 	<style type="text/css">
-		/*.style1
+	 body{
+		 font-size:large;
+		 font-family:serif;
+	 }
+	 .navbar-brand {
+	  height: 80px;
+	}
+		.navbar-brand>img {
+		   max-height: 130%;
+		   height: 130%;
+		   width: auto;
+		   margin: 0 auto;
+		   /* probably not needed anymore, but doesn't hurt */
+		   -o-object-fit: contain;
+		   object-fit: contain; 
+		}
+		.navbar-collapse ul
 		{
-			width: 834px;            
+			margin-top: 15px;
 		}
 		.style2
 		{
-			width: 150px;
-		}*/
-		.header img {
+			width: 180px;
+		}
+		.header{
 			border-radius: 4px;
 		}
 		.footer{
@@ -44,69 +60,37 @@
 		</asp:ContentPlaceHolder>
 		</div>
 	</div>
-	<div id="container" class="container" >
+	<div id="container" class="container" style="max-width:940px;" >
 		<div >
 			<div>
-				<asp:Image ID="ImageHeader" runat="server" AlternateText="www.istyn.com" 
-					ImageUrl="imgs/orangeSmokeHeader.jpg" CssClass="header img-responsive" />
 				<asp:SiteMapDataSource 
 									ID="SiteMapDataSource" runat="server" />
-				<asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource" CssClass="navbar-fixed-top" >
-					<DynamicMenuStyle BackColor="#DDDDDD" BorderStyle="Outset" BorderWidth="1px" CssClass="dropdown-menu" />
-				</asp:Menu>
 			</div>
 			<div class="clear hideSkiplink">
-				<asp:Panel ID="Panel1" runat="server" CssClass="navbar">
-					<div class="loginDisplay">
-					<table>
-						<tr>
-						<td>&nbsp;</td>
-							<td>
-								<asp:Menu ID="NavigationMenu" runat="server" enableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal"
-										  CssClass="navbar"
-											role="navigation"
-										  StaticMenuStyle-CssClass= "nav"
-										  StaticSelectedStyle-CssClass="active"
-										  DynamicMenuStyle-CssClass="dropdown-menu">
-									<Items>
-										<asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home" />
-										<asp:MenuItem NavigateUrl="~/Projects.aspx" Text="Projects" />
-										<asp:MenuItem NavigateUrl="~/Research.aspx" Text="Research Team" />
-										<asp:MenuItem NavigateUrl="~/Papers.aspx" Text="Papers" />
-										<asp:MenuItem NavigateUrl="~/Music.aspx" Text="Music" />
-										<asp:MenuItem NavigateUrl="~/AboutAuthor.aspx" Text="About Me" />
-									</Items>
-								</asp:Menu>
-							</td>
-							<td align="right" class="style2">
-								<asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
-									<AnonymousTemplate>
-										[ <a ID="HeadLoginStatus" runat="server" href="~/Account/Login.aspx">Log In</a> 
-										]
-									</AnonymousTemplate>
-									<LoggedInTemplate>
-										Welcome <span class="bold">
-										<asp:LoginName ID="HeadLoginName" runat="server" />
-										</span>! [
-										<asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" 
-											LogoutPageUrl="~/" LogoutText="Log Out" />
-										]
-									</LoggedInTemplate>
-								</asp:LoginView>
-								<br />
-								<br />
-								<asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" 
-									Font-Size="0.8em" PathSeparator=" : ">
-									<CurrentNodeStyle ForeColor="#333333" />
-									<NodeStyle Font-Bold="True" ForeColor="#7C6F57" />
-									<PathSeparatorStyle Font-Bold="True" ForeColor="#5D7B9D" />
-									<RootNodeStyle Font-Bold="True" ForeColor="#5D7B9D" />
-								</asp:SiteMapPath>
-							</td>
-						</tr>
-					</table>
-					</div>
-				</asp:Panel>
+				<nav class="navbar navbar-inverse">
+					  <div class="container">
+						<div class="navbar-header">
+						  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						  </button>
+						  <a class="navbar-brand" href="Default.aspx"><img src="imgs/signature.png" alt="Isaac"/></a>
+						</div>
+						<div id="navbar" class="collapse navbar-collapse">
+						  <ul class="nav navbar-nav">
+							<li class="active"><a href="Default.aspx">Home</a></li>
+							<li><a href="Projects.aspx">Projects</a></li>
+							<li><a href="Research.aspx">Research Team</a></li>
+							<li><a href="Papers.aspx">Papers</a></li>
+							<li><a href="Music.aspx">Music</a></li>
+							<li><a href="AboutAuthor.aspx">About Me</a></li>
+
+						  </ul>
+						</div>
+					  </div>
+				</nav>
 			</div>
 		</div>
 		
