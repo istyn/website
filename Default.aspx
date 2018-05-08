@@ -5,11 +5,11 @@
 	<table id="table" runat="server">
 		<tr>
 			<td class="col-xs-4">
-				<img alt="Isaac Styles" style="margin-left:0;display:block;" src="imgs/interview17sm.png" />
+				<img alt="Isaac Styles" style="margin-left:0;display:block;" src="imgs/interview18sm.png" />
 			</td>
 			<td class="col-xs-8" style="text-align:left;">
 				<h1>Isaac Styles</h1>
-				<h2 style="color:darkgrey;">Software Developer</h2>
+				<h2 style="color:darkgrey;">Software Engineer</h2>
 			</td>
 		</tr>
 
@@ -18,9 +18,9 @@
 		<tr>
 			<td class="col-xs-12">
                 <hr />
-				<p>Hey, I'm a web and software developer from Burnsville, NC. I work primarily with ASP.NET and C#.</p>
-				<p>Browse through my <a href="Projects.aspx">projects</a> and <a href="research.aspx">research</a>. 
-                    Learn a little <a href="AboutAuthor.aspx">about me</a> and then connect through social media:</p>
+				<p>Currently a software engineer at EfficiencyLab.</p>
+				<p>My favorite technologies right now are ASP.NET and JavaScript.</p>
+                <p>Lets connect!</p>
 			</td>
 		</tr>
 		<tr>
@@ -30,7 +30,7 @@
 						<i class="fa fa-linkedin"></i>
 					</span>
 				</a>
-				<a href="https://twitter.com/isaacgregory1">
+				<a href="https://twitter.com/data_styles">
 					<span class="hb hb-sm">
 						<i class="fa fa-twitter"></i>
 					</span>
@@ -48,6 +48,28 @@
 			</td>
 		</tr>
 	</table>
+	<table>
+		<tr>
+			<td class="col-xs-6">
+                <div class="panel panel-success ">
+                  <div class="panel-heading">Music</div>
+                  <div class="panel-body">I'm a classically trained cellist and ardent supporter of local bluegrass.</div>
+                </div>
+			</td>
+            <td class="col-xs-6">
+                <div class="panel panel-success ">
+                  <div class="panel-heading">Outdoors</div>
+                  <div class="panel-body">My weekends consist of camping, canoeing, hiking, biking, and bouldering.</div>
+                </div>
+			</td>
+<%--            <td class="col-xs-4">
+                <div class="panel panel-info">
+                  <div class="panel-heading">Panel Heading</div>
+                  <div class="panel-body">Panel Content</div>
+                </div>
+			</td>--%>
+		</tr>
+    </table>
 	<br />
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/hexagons.min.js"></script>

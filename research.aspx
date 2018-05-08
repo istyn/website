@@ -4,25 +4,26 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
-    <h2>Research Data Science Team</h2>
+    <h2>Research Data Mining Team</h2>
     <h3>Software Engineering: Summer - Fall 2016</h3>
     <h3>Background...</h3>
-    <p>ETSU Department of Social Work reached out to the Department of Computing to support their transition away from manual lookup to a digital resource locator.&nbsp; Dr. Brian Bennett tasked the Software Enineering I class to design and build a website to collect, search, and sort information about local community resources. &nbsp;The project would take two semesters to complete, at which time it would be handed over to the Emerging Technology Center for deployment on the ETSU intranet.</p>
-    <p>Representatives of the Department of Social work requested statistics about the site but weren&#39;t well versed in what information could be collected from the site.&nbsp; As the semester progressed we began to realize that the analytics user story was a project in and of itself.&nbsp; Meanwhile, Dr. Bennett realized that the upcoming sections of Software Engineering II would have enough people for an additional team.&nbsp; </p>
-    <p>Dr. Bennett and I began to brainstorm a tool that would benefit researchers in the Department of Social Work.&nbsp; We soon realized that the dataset would contain some very useful information about the distribution and availability of resources.&nbsp;A resource may limit their services to people residing in a city, county, or region, or by other factors like gender, race, age, or marital status.&nbsp; This leads to a large variety of constraints.</p>
-    <p>Dr. Bennett completed his doctoral dissertation in k-means clustering.&nbsp; Jacob Gantt, a classmate, and I wanted to take his Artificial Intelligence class but didn&#39;t need additional electives.&nbsp; Instead, Dr. Bennett was graceous enough to give us mini lessons in his office.&nbsp; Together, we decided that machine learning may be a good way to categorize the large variety of constraints.</p>
+    <p>In an effort to consolodate their printed collection of community resources, the ETSU Department of Social Work reached out to the Department of Computing for a software solution.&nbsp; 
+        Under the guidance of Dr. Brian Bennett, our Software Enineering I team build a PHP / Laravel website to collect, search, and gather statistics of local community resources.&nbsp;</p>
+    <p>Near the end of the semester we realized their request for site usage statistics reflected their need for fundamental statistics of the availablity of specific resources. 
+        Realizing this, Dr. Bennett formed a separate software engineering team to analyze the coverage of communitity resources.&nbsp;</p>
     <h3>The Beginnings...</h3>
-    <p>We assembled our team at the beginning of Fall semester, 2016.&nbsp; Dr. Bennett assigned Jacob and I to a team of three computer science majors and one IT major and tasked us with applying machine learning and producing a heat map of related resources.</p>
-    <p>Because the Social Work Department had yet to collect their data, 
-        we scrapped the TN211 website with Python's BeautifulSoup to produce a dataset 
-        of about 15,000 resources across Tennessee.&nbsp; We then analyzed the types of services offered by each provider and designed an algorithm to group the resources according to the type of services they provided. We then wrote an algorithm to determine the area impacted by a resource.&nbsp; This is based on the constraints given as well as a radius and multiplier for that particular type of resource.</p>
+    <p>We scraped the United Way TN211 online database, which is the department's primary data source. Most resources are constrained by demographics, marital status, and many other factors.
+        These were given as unstructured text.&nbsp;</p>
+    <p>In order to classify each resource, we explored classification algorithms to reveal the constraint based on the wording of the constraints field.&nbsp;</p>
+    <p>The TN211 contained about 15,000 resources across Tennessee. We classified them into 15 distinct groups.&nbsp;</p>
     <h3>The Results...</h3>
-    <p>We placed the resources on a population density map from the US Census Bureau and tallied the number of people within a radius of the provider.&nbsp; This gave an aproximate number of people within driving distance of each resource.&nbsp; To approxiate the nonlinear relation that distance has on its availability, a 2D Gaussian curve was applied to the population.</p>
+    <p>After classifying, we needed to approximate the number people who are applicable for a resource. Using population density maps from the US Census Bureau, we tallied the number of people within a configurable radius of the provider.&nbsp; 
+        We applied a 2D Gaussian curve to the population to better approxiate the nonlinear relation that distance has on availability.</p>
     <br />
-    <p>This map displays the clustering of basic needs resources that occur in densely population regions in and around cities:</p>
-    <img src="imgs/heat.png" class="img-responsive" " />
+    <p>This heat map shows the clustering of "basic needs" resources that occurs in and around cities:</p>
+    <img src="imgs/heat.png" class="img-responsive" alt="basic needs heat map" />
     <br /><br />
-    <p>To view the source code, please visit the <a href="https://github.com/fall16-se2-001-team2/HMDV">Github repository</a>.</p>
+    <p>Python source code available on <a href="https://github.com/fall16-se2-001-team2/HMDV">Github</a>.</p>
     <br />
     <br />
     <p>Special thanks to Dr. Brian Bennett of the ETSU Department of Computing for his oversight and expertise.</p>

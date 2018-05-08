@@ -8,12 +8,12 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
 	<table><tr>
 		<td class="col-xs-6">
-			<img alt="Isaac Styles" style="margin:0 auto;text-align:center;display:block;" src="imgs/interview17.png" />
+			<img alt="Isaac Styles" style="margin:0 auto;text-align:center;display:block;" src="imgs/interview18.png" />
 		</td>
 		<td class="col-xs-6">
 			<asp:Literal ID="ltrInfo" runat="server"></asp:Literal>
 
-			<h3 style="margin: 0 auto; text-align:center;"><a href="imgs/resume17.docx">My RÉSUMÉ is available here</a></h3>
+			<h3 style="margin: 0 auto; text-align:center;"><a href="imgs/IGSresume18.pdf">My RÉSUMÉ is available here</a></h3>
 			
 		</td>
 	</tr>
@@ -25,5 +25,5 @@
 	</div>
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-<script type="text/javascript" src="assets/js/hexagons.min.js"></script>
+
 </asp:Content>
