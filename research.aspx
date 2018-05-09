@@ -6,12 +6,9 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
     <h2 style="font-weight:bold">Research Data Mining Team</h2>
     <h3 style="font-weight:bold">Software Engineering: Summer - Fall 2016</h3>
-    <h3 style="align-content:center">Heat Map of Basic Community Resources across Tennessee</h3>
-    <img src="imgs/heat.png" class="img-responsive" alt="basic needs heat map" />
-    <p>This heat map revealed the prevalence of public aid in the more densely populated areas.</p>
-
-    
-    
+    <h3 style="text-align:center">Heat Map of Basic Community Resources across Tennessee</h3>
+    <img src="imgs/heat.png" class="img-responsive" alt="basic needs heat map" style="margin: 0 auto;" />
+    <p style="text-align:right">This map reveals the prevalence of public aid in densely populated areas.</p>
     <h3>Background...</h3>
     <p>In an effort to consolodate their printed collection of community resources, the ETSU Department of Social Work reached out to the Department of Computing for a software solution.&nbsp; 
         Under the guidance of Dr. Brian Bennett, our Software Enineering I team build a PHP / Laravel website to collect, search, and gather statistics of local community resources.&nbsp;</p>

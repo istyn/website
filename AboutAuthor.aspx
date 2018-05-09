@@ -1,9 +1,8 @@
 ﻿<%@ Page Title="About Isaac Styles" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AboutAuthor.aspx.cs" Inherits="WebApplication1.AboutAuthor" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/> 
-	<link rel="stylesheet" type="text/css" href="assets/css/hexagons.min.css"/> 
+<%--	<link rel="stylesheet" type="text/css" href="assets/css/hexagons.min.css"/> --%>
 <style type="text/css">
-
     .auto-style2 {
         position: relative;
         min-height: 1px;
@@ -25,7 +24,7 @@
 		<td class="col-xs-6">
 			<asp:Literal ID="ltrInfo" runat="server"></asp:Literal>
 
-			<h3 style="margin: 0 auto; text-align:center;"><a href="imgs/IGSresume18.pdf">My RÉSUMÉ is available here</a></h3>
+			<h3 style="margin: 0 auto; text-align:center;"><a href="imgs/IGSresume18.pdf">My resume is available here</a></h3>
 			
 		</td>
 	</tr>
