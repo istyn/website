@@ -76,19 +76,25 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutAuthor.aspx" />
-    <Content Include="Account\ChangePassword.aspx" />
-    <Content Include="Account\ChangePasswordSuccess.aspx" />
-    <Content Include="Account\Login.aspx" />
-    <Content Include="Account\Register.aspx" />
-    <Content Include="App_Data\Database.mdf" />
-    <Content Include="App_Data\Database_log.ldf">
-      <DependentUpon>Database.mdf</DependentUpon>
-    </Content>
-    <Content Include="App_Data\db.mdf" />
-    <Content Include="App_Data\db_log.ldf">
-      <DependentUpon>db.mdf</DependentUpon>
-    </Content>
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\font-awesome.css" />
+    <Content Include="assets\css\font-awesome.min.css" />
+    <Content Include="assets\css\hexagons.css" />
+    <Content Include="assets\css\hexagons.min.css" />
+    <Content Include="assets\css\page-style.css" />
+    <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\js\hexagons.js" />
+    <Content Include="assets\js\hexagons.min.js" />
+    <Content Include="assets\js\jquery-2.1.0.min.js" />
     <Content Include="DavisSpecial.aspx" />
+    <Content Include="imgs\davisSpecial.JPG" />
+    <Content Include="imgs\heat.png" />
+    <Content Include="imgs\interview18.png" />
+    <Content Include="imgs\interview18sm.png" />
+    <Content Include="imgs\isaacTruck.jpg" />
+    <Content Include="imgs\orangeSmokeHeader.jpg" />
+    <Content Include="imgs\philNewsArticle.jpg" />
+    <Content Include="imgs\signature.png" />
     <Content Include="Music.aspx" />
     <Content Include="Papers.aspx" />
     <Content Include="Projects.aspx" />
@@ -102,11 +108,9 @@
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
@@ -116,37 +120,6 @@
     </Compile>
     <Compile Include="AboutAuthor.aspx.designer.cs">
       <DependentUpon>AboutAuthor.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Account\ChangePassword.aspx.cs">
-      <DependentUpon>ChangePassword.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Account\ChangePassword.aspx.designer.cs">
-      <DependentUpon>ChangePassword.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
-      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
-      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Account\Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Account\Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Account\Register.aspx.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Account\Register.aspx.designer.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Database.cs">
-      <DependentUpon>Database.dbml</DependentUpon>
     </Compile>
     <Compile Include="DavisSpecial.aspx.cs">
       <DependentUpon>DavisSpecial.aspx</DependentUpon>
@@ -225,33 +198,32 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Account\Web.config">
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="Site.Master" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Database.dbml">
-      <Generator>MSLinqToSQLGenerator</Generator>
-      <SubType>Designer</SubType>
-    </None>
     <Content Include="Web.sitemap">
       <SubType>Designer</SubType>
     </Content>
-    <None Include="Properties\PublishProfiles\html.pubxml" />
-    <None Include="Properties\PublishProfiles\p2.pubxml" />
-    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
+    <Content Include="imgs\GBL.pdf" />
+    <Content Include="imgs\IGS-UDLFSMD.pdf" />
+    <Content Include="imgs\IGSresume18.pdf" />
+    <Content Include="imgs\perfSorting.pdf" />
+    <Content Include="imgs\perfx86.pdf" />
+    <Content Include="imgs\resume17.docx" />
+    <Content Include="assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="assets\js\jquery-2.1.0.min.map" />
+    <None Include="Properties\PublishProfiles\Default Settings.pubxml" />
+    <None Include="Properties\PublishProfiles\importtoIIS7.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Database.dbml.layout">
-      <DependentUpon>Database.dbml</DependentUpon>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Themes\" />
+    <Folder Include="App_Data\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

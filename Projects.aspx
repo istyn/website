@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
-        <h2>My Extracurriculars</h2>
+        <h2 style="font-weight:bold">My Extracurriculars</h2>
 <p>I swear I go outside. But seriously, I enjoy programming. Here are some of my pet projects. They are in C# unless stated.</p>
 <h2>Computational Chemistry</h2>
 <ul>

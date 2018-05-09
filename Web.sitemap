@@ -7,6 +7,5 @@
       <siteMapNode url="Music.aspx" title="Music"  description="Enjoy some media produced by myself" />
       <siteMapNode url="DavisSpecial.aspx" title="'51 Davis Special"  description="View pictures and read an article about Uncle Phil's racecar" />
       <siteMapNode url="AboutAuthor.aspx" title="About Me"  description="About the Author" />
-        <siteMapNode url="Account/Login.aspx" title="Log In"  description="Log in or create an account" />
     </siteMapNode>
 </siteMap>

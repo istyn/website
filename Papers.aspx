@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Papers.aspx.cs" Inherits="WebApplication1.Papers" %>
 <asp:Content ID="StudentContent" ContentPlaceHolderID="MainContent" runat="server">
+    <h2 style="font-weight:bold">Research Papers at ETSU</h2>
     <ul>
     <li><a href="imgs/IGS-UDLFSMD.pdf"><span class="auto-style2">Unsupervised Disaggregation of Low-Frequency Smart Meter Data</span></a> - 2018
         <p style="margin-left:12px;">Abstract: <i>Utilities desire a cost-effective way to disaggregate low-frequency, whole-house data produced from their existing infrastructure. 
@@ -24,7 +25,7 @@
             competitiveness by narrowing the learning curve
             associated with new jobs, coaching employees through
             business decisions, and sharpening strategic thinking.</i></p>
-        <p style="margin-left:12px;">&nbsp;</p>
+        <p>&nbsp;</p>
     </li>
     <li><a href="imgs/perfx86.pdf"><span class="auto-style2">Account of the Internal Optimizations Used in i486 Integer Multiplication</span></a> - 2015
         <p style="margin-left:12px;">Abstract: <i>Performance testing of MASM assembly instructions revealed integer division and multiplication uses

@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
-    <h1>Music is Life</h1>
+    <h2 style="font-weight:bold">Music is Life</h2>
     <p>
         I'm fortunate to have grown up in a public school system that emphasized the fine arts. Yancey County Schools was
         unique for the area because they offered classical training on stringed instruments. I played the cello in a small ensemble from 

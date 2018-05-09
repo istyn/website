@@ -1,14 +1,26 @@
 ﻿<%@ Page Title="About Isaac Styles" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AboutAuthor.aspx.cs" Inherits="WebApplication1.AboutAuthor" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/> 
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/> 
 	<link rel="stylesheet" type="text/css" href="assets/css/hexagons.min.css"/> 
+<style type="text/css">
+
+    .auto-style2 {
+        position: relative;
+        min-height: 1px;
+        float: left;
+        width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+</style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
-	<table><tr>
-		<td class="col-xs-6">
+    <table><tr>
+		<td class="auto-style2" style="text-align: right">
 			<img alt="Isaac Styles" style="margin:0 auto;text-align:center;display:block;" src="imgs/interview18.png" />
+                <br />
 		</td>
 		<td class="col-xs-6">
 			<asp:Literal ID="ltrInfo" runat="server"></asp:Literal>
@@ -25,5 +37,10 @@
 	</div>
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-
+<%--        <script type="text/javascript">
+        $(".nav a").on("click", function () {
+            $(".nav").find(".active").removeClass("active");
+            $(this).parent().addClass("active");
+        });
+    </script>--%>
 </asp:Content>

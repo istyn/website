@@ -31,10 +31,9 @@ namespace WebApplication1
             ltrInfo.Text = "<ul>";
             ltrInfo.Text += "<li>Graduate of East Tennessee State University</li>";
             ltrInfo.Text += "<li>B.S. in Computing: concentration in Computer Science</li>";
-            ltrInfo.Text += "<li>Freelance IT for small business</li>";
-            ltrInfo.Text += "<li>This site built using ASP.NET MVC. <a href=\"https://github.com/istyn/website.git\">Source code here</a></li>";
-            ltrInfo.Text += "<li>This site is hosted on a RaspberryPi 3.</li>";
-            ltrInfo.Text += "<li>I have an '86 Mazda B2000 'low-n-slow' pickup <span style=\"color:red\">for sale</span>. Check out the <a href='http://www.mazdabscene.com/forums/projects/project-b2000-polishing-turd-update-new-paint-t19511.html'>build thread</a></li>";
+            ltrInfo.Text += "<li>Software Engineer and Citizen Data Scientist</li>";
+            ltrInfo.Text += "<li>Ask me a question on  <a href=\"https://www.quora.com/profile/Isaac-Styles\">Quora</a></li>";
+            ltrInfo.Text += "<li>I have a clean little '86 Mazda B2000 'low-n-slow' pickup <span style=\"color:red\">for sale</span>. Check out the <a href='http://www.mazdabscene.com/forums/projects/project-b2000-polishing-turd-update-new-paint-t19511.html'>build thread</a></li>";
             ltrInfo.Text += "</ul>";
         }
 
