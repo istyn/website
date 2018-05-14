@@ -33,7 +33,6 @@ namespace WebApplication1
             ltrInfo.Text += "<li>B.S. in Computing: concentration in Computer Science</li>";
             ltrInfo.Text += "<li>Software Engineer and Citizen Data Scientist</li>";
             ltrInfo.Text += "<li>Ask me a question on <a href=\"https://www.quora.com/profile/Isaac-Styles\">Quora</a></li>";
-            ltrInfo.Text += "<li>I have a clean little '86 Mazda B2000 'low-n-slow' pickup <span style=\"color:red\">for sale</span>. Check out the <a href='http://www.mazdabscene.com/forums/projects/project-b2000-polishing-turd-update-new-paint-t19511.html'>build thread</a></li>";
             ltrInfo.Text += "</ul>";
         }
 

@@ -95,6 +95,13 @@
     <Content Include="imgs\orangeSmokeHeader.jpg" />
     <Content Include="imgs\philNewsArticle.jpg" />
     <Content Include="imgs\signature.png" />
+    <Content Include="leaflet\control.css" />
+    <Content Include="leaflet\counties_gui.js" />
+    <Content Include="leaflet\counties_TN.js" />
+    <Content Include="leaflet\heatmap-base.js" />
+    <Content Include="leaflet\leaflet-heatmap.js" />
+    <Content Include="leaflet\providerDataPoints.js" />
+    <Content Include="leaflet\TN211BasicNeedsMap.html" />
     <Content Include="Music.aspx" />
     <Content Include="Papers.aspx" />
     <Content Include="Projects.aspx" />

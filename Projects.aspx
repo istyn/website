@@ -6,12 +6,29 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
         <h2 style="font-weight:bold">My Extracurriculars</h2>
 <p>I swear I go outside. But seriously, I enjoy programming. Here are some of my pet projects. They are in C# unless stated.</p>
+<h2>Web / JavaScript</h2>
+<ul>
+    <li><a href="https://github.com/istyn/ReactD3.git">Site Visitors Dashboard</a>
+        <ul>
+            <li>Simple bar chart and daily site usage statistics</li>
+            <li>D3 does the math while React.JS draws the UI</li>
+            <li>Hosted on <a href="http://lamp.istyles.net/~istyles6">my LAMP server</a></li>
+       </ul>
+    </li>
+        <li><a href="https://github.com/fall16-se2-001-team2/HMDV">Python Leaflet map generator</a>
+        <ul>
+            <li>Scrap and display community resources from TN211 online</li>
+            <li>Produces interactive JavScript map using <a href="https://leafletjs.com/">Leaflet.JS</a></li>
+            <li>See in action on <a href="research.aspx">the Reserach Team page</a></li>
+       </ul>
+    </li>
+</ul>
 <h2>Computational Chemistry</h2>
 <ul>
     <li><a href="https://github.com/istyn/2DmolecularDynamics.git">2D Molecular Dynamics Simulation</a>
         <ul>
             <li>An event-driven molecular dynamics simulation of elastic collisions in 2-dimensions</li>
-            <li>Assignment from Princeton can be found <a href="http://introcs.cs.princeton.edu/java/assignments/collisions.html">here</a></li>
+            <li>Assignment from Princeton is found <a href="http://introcs.cs.princeton.edu/java/assignments/collisions.html">here</a>.</li>
        </ul>
     </li>
         <li><a href="https://github.com/istyn/2DHexClosestPacking.git">2D HCP Lattice</a>
