@@ -24,7 +24,7 @@
 		<td class="col-xs-6">
 			<asp:Literal ID="ltrInfo" runat="server"></asp:Literal>
 
-			<h3 style="margin: 0 auto; text-align:center;"><a href="imgs/IGSresume18.pdf">My resume is available here</a></h3>
+			<h3 style="margin: 0 auto; text-align:center;"><a href="imgs/IGSresume23Analyst.pdf">My resume is available here</a></h3>
 			
 		</td>
 	</tr>
