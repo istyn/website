@@ -27,7 +27,7 @@ using System.Data;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace WebApplication1
+namespace IStylesWebsite
 {
     public partial class _Default : System.Web.UI.Page
     {

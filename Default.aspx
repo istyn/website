@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Isaac Styles" EnableViewState="false" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
-	CodeBehind="Default.aspx.cs" Inherits="WebApplication1._Default" %>
+	CodeBehind="Default.aspx.cs" Inherits="IStylesWebsite._Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" Runat="Server" >
 	<table id="table" runat="server">

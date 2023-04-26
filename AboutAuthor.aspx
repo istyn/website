@@ -1,4 +1,4 @@
-﻿<%@ Page Title="About Isaac Styles" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AboutAuthor.aspx.cs" Inherits="WebApplication1.AboutAuthor" %>
+﻿<%@ Page Title="About Isaac Styles" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AboutAuthor.aspx.cs" Inherits="IStylesWebsite.AboutAuthor" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css"/> 
 <%--	<link rel="stylesheet" type="text/css" href="assets/css/hexagons.min.css"/> --%>

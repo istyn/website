@@ -25,7 +25,7 @@ using System.Data.SqlClient;
 using System.Configuration;
 using System.Data;
 
-namespace WebApplication1
+namespace IStylesWebsite
 {
     public partial class rss : System.Web.UI.Page
     {

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="'51 Davis Special" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
-    CodeBehind="DavisSpecial.aspx.cs" Inherits="WebApplication1._Default" %>
+    CodeBehind="DavisSpecial.aspx.cs" Inherits="IStylesWebsite._Default" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>

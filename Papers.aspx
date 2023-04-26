@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Papers.aspx.cs" Inherits="WebApplication1.Papers" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Papers.aspx.cs" Inherits="IStylesWebsite.Papers" %>
 <asp:Content ID="StudentContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2 style="font-weight:bold">Research Papers at ETSU</h2>
     <ul>

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" ContentType="text/xml" AutoEventWireup="true" CodeBehind="rss.aspx.cs" Inherits="WebApplication1.rss" %>  
+﻿<%@ Page Language="C#" ContentType="text/xml" AutoEventWireup="true" CodeBehind="rss.aspx.cs" Inherits="IStylesWebsite.rss" %>  
 
 <asp:Repeater ID="RepeaterRSS" runat="server">  
         <HeaderTemplate>  

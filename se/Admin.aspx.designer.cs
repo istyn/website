@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication1.se {
+namespace IStylesWebsite.se {
     
     
     public partial class admin {

@@ -21,7 +21,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace WebApplication1
+namespace IStylesWebsite
 {
     public partial class AboutAuthor : System.Web.UI.Page
     {

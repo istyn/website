@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Social Work Data Analysis Team" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="research.aspx.cs" Inherits="WebApplication1.research" %>
+﻿<%@ Page Title="Social Work Data Analysis Team" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="research.aspx.cs" Inherits="IStylesWebsite.research" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
