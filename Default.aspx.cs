@@ -1,6 +1,6 @@
 ﻿/*//////////////////////////////////////////////////////////////////////////
 *
-* Project: Project2
+* Project: IStylesWebsite
 * File Name: Default.cs
 * Description: Implement a connection to Database.mdf to retrieve the news feed.
  *              Databinding occurs in the table on the right column.

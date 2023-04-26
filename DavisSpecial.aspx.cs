@@ -1,6 +1,6 @@
 ﻿/*//////////////////////////////////////////////////////////////////////////
 *
-* Project: Project2
+* Project: IStylesWebsite
 * File Name: DavisSpecial.aspx.cs
 * Description: Implement a very static page about my uncle phil's racecar
 * Course: CSCI 4957 - ASP.NET

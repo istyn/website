@@ -1,6 +1,6 @@
 ﻿/*//////////////////////////////////////////////////////////////////////////
 *
-* Project: Project2
+* Project: IStylesWebsite
 * File Name: InvalidInputException.cs
 * Description: Implement a very simple Exception to indicate input validation failure
 * Course: CSCI 4957 - ASP.NET

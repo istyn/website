@@ -1,6 +1,6 @@
 ﻿/*//////////////////////////////////////////////////////////////////////////
 *
-* Project: Project2
+* Project: IStylesWebsite
 * File Name: rss.aspx.cs
 * Description: Implement a RSS 2.0 feed in XML using asp:Repeater
 

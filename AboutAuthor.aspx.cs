@@ -1,6 +1,6 @@
 ﻿/*//////////////////////////////////////////////////////////////////////////
 *
-* Project: Project2
+* Project: IStylesWebsite
 * File Name: AboutAUthor.aspx.cs
 * Description: Implement a static page containing information about the author, ME
 * Course: CSCI 4957 - ASP.NET
