@@ -11,9 +11,9 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WebApplication1</RootNamespace>
-    <AssemblyName>WebApplication1</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>IStylesWebsite</RootNamespace>
+    <AssemblyName>IStylesWebsite</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>false</UseIISExpress>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -26,6 +26,7 @@
     <IISExpressUseClassicPipelineMode />
     <TargetFrameworkProfile />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -81,11 +82,20 @@
     <Content Include="assets\css\font-awesome.min.css" />
     <Content Include="assets\css\hexagons.css" />
     <Content Include="assets\css\hexagons.min.css" />
+    <Content Include="assets\css\leaflet.css" />
     <Content Include="assets\css\page-style.css" />
+    <Content Include="assets\fonts\fontawesome-webfont.eot" />
     <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="assets\js\bootstrap.min.js" />
     <Content Include="assets\js\hexagons.js" />
     <Content Include="assets\js\hexagons.min.js" />
     <Content Include="assets\js\jquery-2.1.0.min.js" />
+    <Content Include="assets\js\jquery.min.js" />
+    <Content Include="assets\js\leaflet.js" />
     <Content Include="DavisSpecial.aspx" />
     <Content Include="imgs\davisSpecial.JPG" />
     <Content Include="imgs\heat.png" />
@@ -217,14 +227,8 @@
     <Content Include="imgs\perfSorting.pdf" />
     <Content Include="imgs\perfx86.pdf" />
     <Content Include="imgs\resume17.docx" />
-    <Content Include="assets\fonts\fontawesome-webfont.eot" />
-    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
-    <Content Include="assets\fonts\fontawesome-webfont.woff" />
-    <Content Include="assets\fonts\fontawesome-webfont.woff2" />
-    <Content Include="assets\fonts\FontAwesome.otf" />
     <Content Include="assets\js\jquery-2.1.0.min.map" />
-    <None Include="Properties\PublishProfiles\Default Settings.pubxml" />
-    <None Include="Properties\PublishProfiles\importtoIIS7.pubxml" />
+    <None Include="Properties\PublishProfiles\istyles - Web Deploy.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />

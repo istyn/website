@@ -1,10 +1,10 @@
-﻿<%@ Page Title="Research Documents" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="research.aspx.cs" Inherits="WebApplication1.research" %>
+﻿<%@ Page Title="Social Work Data Analysis Team" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="research.aspx.cs" Inherits="WebApplication1.research" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
-    <h2 style="font-weight:bold">Research Data Mining Team</h2>
+    <h2 style="font-weight:bold">Social Work Data Analysis Team</h2>
     <h3 style="font-weight:bold">Software Engineering: Summer - Fall 2016</h3>
     <h3 style="text-align:center">Heat Map of Basic Community Resources across Tennessee</h3>
     <p style="text-align:center"><iframe src="leaflet/TN211BasicNeedsMap.html" width=900 height="500"></iframe></p>

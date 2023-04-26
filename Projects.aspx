@@ -6,8 +6,13 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
         <h2 style="font-weight:bold">My Extracurriculars</h2>
 <p>I swear I go outside. But seriously, I enjoy programming. Here are some of my pet projects. They are in C# unless stated.</p>
-<h2>Web / JavaScript</h2>
+<h2>Web</h2>
 <ul>
+    <li><a href="https://github.com/istyn/PyDashApp.git">Python Dash Application</a>
+        <ul>
+            <li>Simple demonstration of a python application using dash.</li>
+        </ul>
+    </li>
     <li><a href="https://github.com/istyn/ReactD3.git">Site Visitors Dashboard</a>
         <ul>
             <li>Simple bar chart and daily site usage statistics</li>
