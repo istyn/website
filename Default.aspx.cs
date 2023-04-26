@@ -5,13 +5,13 @@
 * Description: Implement a connection to Database.mdf to retrieve the news feed.
  *              Databinding occurs in the table on the right column.
 * Course: CSCI 4957 - ASP.NET
-* Author: Isaac Styles, styles@goldmail.etsu.edu
+* Author: Isaac Styles
 * Created: Friday June 14, 2013
-* Copyright: Isaac Styles, 2013
+* Copyright: Isaac Styles, 2023
 *
 =========================================================
 *
-* Last Modified: Friday June 28, 2013
+* Last Modified: April 26, 2023
 * Modified by: Isaac Styles
 *
 ///////////////////////////////////////////////////////////////////////////*/
