@@ -30,7 +30,7 @@ namespace IStylesWebsite
             ltrInfo.Mode = LiteralMode.PassThrough;
             ltrInfo.Text = "<ul>";
             ltrInfo.Text += "<li>Graduate of East Tennessee State University</li>";
-            ltrInfo.Text += "<li>B.S. in Computing: concentration in Computer Science</li>";
+            ltrInfo.Text += "<li>B.S. in Computer Science</li>";
             ltrInfo.Text += "<li>Software Engineer and Citizen Data Scientist</li>";
             ltrInfo.Text += "<li>Ask me a question on <a href=\"https://www.quora.com/profile/Isaac-Styles\">Quora</a></li>";
             ltrInfo.Text += "</ul>";
