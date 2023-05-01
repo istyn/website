@@ -18,7 +18,7 @@
 		<tr>
 			<td class="col-xs-12">
                 <hr />
-				<p>The future is data driven, and I'm happiest at the intersection of data, analytics, and web pages.</p>
+				<p>The future is data driven, and I'm happiest at the intersection of web, data, and analytics.</p>
                 <p>Connect with me below:</p>
 			</td>
 		</tr>
