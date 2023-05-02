@@ -29,16 +29,15 @@
         So we moved forward with a simple parsing algorithm to pre-process the most common constraints based on keywords.</p>
     <p>TN211 listed nearly 15,000 resources across Tennessee, which we categorized into 7 high-level groups.</p>
     <h3>The Results...</h3>
-    <p>The end result was 7 heatmaps that described the distribution of the distinct resource categories.
-        We used Leaflet.JS to make the maps interactive.
+    <p>The end result was 7 heatmaps generated with Leaflet.JS that described the distribution of the distinct resource categories.
     </p>
 <%--    <p>We crossed the location of resources with a population density map from the US Census Bureau, then tallied the number of people within a radius. 
         A 2D Gaussian curve applied to the population density better approxiated the nonlinear relation that distance has on availability.</p>
     <p>Our python code transpiles JavaScript using Heatmap.JS to plot the resources on an interactive heat map. The name and location of each resource are overlaid with a street map for relative location.</p>--%>
     
-    <br />    
+<%--    <br />    
     <h2 style="text-align:center"><a href="leaflet/TN211BasicNeedsMap.html">Click to Explore the Map in Full Screen</a></h2>
-    <br />
+    <br />--%>
 
     <p>Python and JavaScript source code available on <a href="https://github.com/fall16-se2-001-team2/HMDV">Github</a>.</p>
     <br />
